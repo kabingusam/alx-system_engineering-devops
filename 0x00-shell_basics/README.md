@@ -1,1 +1,0 @@
-current woking directory
