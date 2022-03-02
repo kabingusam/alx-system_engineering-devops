@@ -1,3 +1,2 @@
 #!/bin/bash
-mv
-mv/mv /tmp/betty tmo/mupy_first_directory
+mv /tmp tmp/my_first_directory
