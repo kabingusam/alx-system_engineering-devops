@@ -1,0 +1,2 @@
+#!/bin/bash
+printf 'I.2f\n' $NUM
