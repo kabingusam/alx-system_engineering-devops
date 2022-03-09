@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((128 * $TRUEKNOWLEDGE))
+ls -la>ls_cwd_content
