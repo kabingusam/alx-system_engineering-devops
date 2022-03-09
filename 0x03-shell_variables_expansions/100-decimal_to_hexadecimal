@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%*\n"
+printf '%x\n'
