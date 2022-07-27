@@ -1,4 +1,4 @@
-# S# Shell, I/O Redirections and filters
+# Shell, I/O Redirections and filters
 
 ### General Info
 ***
