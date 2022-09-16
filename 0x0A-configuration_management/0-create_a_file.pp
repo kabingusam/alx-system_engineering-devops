@@ -1,3 +1,4 @@
+# Create a new file
 file = {'/tmp/school':
 ensure => file,
 permission => '0774',
