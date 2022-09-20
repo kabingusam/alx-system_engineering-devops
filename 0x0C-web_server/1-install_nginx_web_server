@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Installs and sets up NGINX 
+sudo apt-get install -y nginx
+sudo service nginx start
+echo "Hello World!" | sudo tee /usr/share/nginx/html/index.html
