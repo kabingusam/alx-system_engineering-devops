@@ -1,5 +1,18 @@
 #!/usr/bin/env bash
 # Installs and sets up NGINX 
-sudo apt-get install -y nginx
-sudo service nginx start
-echo "Hello World!" | sudo tee /usr/share/nginx/html/index.html
+
+apt-get update
+apt-get install -y nginx
+
+mkdir /etc/nginx/html
+touch /etc/nginx/html/index.html
+echo "Hello World!" > /etc/nginx/html/index.html
+printf %s "server {
+     listen      80 default_server;
+     listen      [::]:80 default_server;
+     root        /etc/nginx/html;
+     index       index.html index.htm;
+}
+" > /etc/nginx/sites-available/default
+
+service nginx restart
